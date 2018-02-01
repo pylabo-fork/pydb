@@ -10,4 +10,7 @@ class syntax():
   def decode(self):
     for line in range(len(self.lines)):
       source = self.lines[line]
+#       indent = 0
+#       while line[indent] == ' ':
+#         indent += 1
       ## Work In Progress
